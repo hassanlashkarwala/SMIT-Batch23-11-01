@@ -12,19 +12,19 @@
 // pets[2] = "bird";
 // console.log(pets);
 
-// push method: Adding the last element of an array 
+// push method: Adding the last element of an array
 // pets.push("elephant", "monkey")
 // console.log(pets);
 
-// Pop method: Removing the last element of an array 
+// Pop method: Removing the last element of an array
 // pets.pop();
 // console.log(pets);
 
-// Shift method: Removing the first element of an array 
+// Shift method: Removing the first element of an array
 // pets.shift();
 // console.log(pets);
 
-// unshift method: Adding the first element of an array 
+// unshift method: Adding the first element of an array
 // pets.unshift("fish");
 // console.log(pets);
 // pets.unshift("cow")
@@ -39,8 +39,8 @@
 // students.splice(1, 0, "Mustufa", "Anas");
 // console.log(students);
 
-let cars = ["Yaris", "Corolla", "Honda", "Mehran", "Alto"];
-console.log(cars);
+// let cars = ["Yaris", "Corolla", "Honda", "Mehran", "Alto"];
+// console.log(cars);
 
-let updatedCars = cars.slice(1, 5);
-console.log(updatedCars);
+// let updatedCars = cars.slice(1, 3);
+// console.log(updatedCars);
