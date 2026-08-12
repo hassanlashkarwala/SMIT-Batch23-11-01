@@ -10,6 +10,7 @@
 // }
 // console.log(i);
 // }
+// console.log(i);
 
 // let digits = [120, 140, 160, 180];
 // let foundDigits = false;
@@ -18,13 +19,22 @@
 //         foundDigits = true;
 //         break;
 //     }
-//     console.log(foundDigits);
 // }
+// console.log(foundDigits);
 
 // Chapter 20 - Nested for loops.
 // Simple concept:
 // Nested loop = ek for loop ke andar doosra for loop.
 
+// so why we used nested loop 
+// Jab bhi data do dimensions me ho (rows + columns, ya har item ke andar aur items compare karne hon), tab nested loop use karte hain.
+
+// syntax for loop & nested for loop
+// for (let i = 0; i <= 5; i++) {
+//     for(let j = 0; j <= 3; j++){
+
+//     }
+// }
 
 // Basic Example!
 // for (let i = 1; i <= 3; i++) {
@@ -53,27 +63,27 @@
 // 3 3
 
 // second example
-// for (let i = 1; i <= 3; i++) {
-//     for (let j = 1; j <= 5; j++) {
+// for (let i = 1; i < 3; i++) {
+//     for (let j = 1; j < 5; j++) {
 //         console.log(i, "x", j);
 //     }
 // }
 
 // mutiplication example!
 // for (let i = 1; i <= 5; i++) {
-//   for (let j = 1; j <= 5; j++) {
-//     console.log(i * j);  // multiplication table
+//   for (let j = 1; j <= 10; j++) {
+//     console.log(i * j); 
 //   }
 // }
 
-// third example :
-// let students = ["Hassan", "Ali", "Ahmed"];
-// let subjects = ["HTML", "CSS", "JavaScript"];
+// nested for loop with array :
+let students = ["Hassan", "Ali", "Ahmed"];
+let subjects = ["HTML", "CSS", "JavaScript"];
 
-// for (let i = 0; i < students.length; i++) {
-//   for (let j = 0; j < subjects.length; j++) {
-//     console.log(students[i], subjects[j]);
-//   }
-// }
+for (let i = 0; i < students.length; i++) {
+  for (let j = 0; j < subjects.length; j++) {
+    console.log(students[i], subjects[j]);
+  }
+}
 // example ke structure!
 // Outer loop student select kar raha hai, inner loop us student ke liye subjects ke through ja raha hai.
