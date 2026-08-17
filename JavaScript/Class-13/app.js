@@ -86,4 +86,4 @@ for (let i = 0; i < students.length; i++) {
   }
 }
 // example ke structure!
-// Outer loop student select kar raha hai, inner loop us student ke liye subjects ke through ja raha hai.
+// Outer loop student select kar raha hai, inner loop us student ke liye subjects ke through ja raha hai. 
