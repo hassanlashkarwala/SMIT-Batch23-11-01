@@ -22,8 +22,8 @@
 // let lastInteger = Math.floor(score);
 // console.log(lastInteger);
 
-    // console.log(Math.floor(2.65)); //3 ya //2
-    // console.log(Math.floor(8.4));
+// console.log(Math.floor(2.65)); //3 ya //2
+// console.log(Math.floor(8.4));
 
 //===================== 
 // Math.ceil()
@@ -69,7 +69,7 @@
 // let randomNumber = Math.floor(Math.random() * 10) + 1;
 // console.log(randomNumber);
 
-let numberGoToHundred = Math.floor(Math.random() * 100) + 1;
-console.log(numberGoToHundred);
+// let numberGoToHundred = Math.floor(Math.random() * 100) + 1;
+// console.log(numberGoToHundred);
 
 // "Dice mein numbers 1 se 6 tak number hote hain. JavaScript se random dice number generate karna ho?"
