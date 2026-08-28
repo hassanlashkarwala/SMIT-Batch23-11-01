@@ -65,5 +65,15 @@
 // getDate() -> month ki date
 // getDay() ->  week ka day
 
+// ==================================================
+// Chapter 34: Changing elements of a date and time
+// ==================================================
+// You can change individual elements of a Date object. Here's a summary
 
-if(false || true)
+// setFullYear(): setFullYear sets the year of an existing Date object without changing any other element.
+// setMonth(): setMonth sets the month of an existing Date object without changing any other element.
+// setDate(): setDate sets the day of the month of an existing Date object without changing any other element.
+// setHours(): setHours sets the hours of an existing Date object without changing any other element.
+// setMinutes(): setMinutes sets the minutes of an existing Date object without changing any other element.
+// setSeconds(): setSeconds sets the seconds of an existing Date object without changing any other element.
+// setMilliseconds(): setMilliseconds sets the milliseconds of an existing Date object without changing any other element.
