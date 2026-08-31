@@ -3,8 +3,8 @@
 // =========================
 
 // let currentDate = new Date();
-// console.log(typeof currentDate);
 // console.log(currentDate);
+// console.log(typeof currentDate);
 // currentDate = currentDate.toString();
 // console.log(typeof currentDate);
 // Acha har student's ka output system/time ke according different hoga.
@@ -18,6 +18,7 @@
 
 // Now i need current year only, no need whole date!
 // let currentDate = new Date();
+// console.log(typeof currentDate);
 // console.log(currentDate.getFullYear());
 // console.log(typeof currentDate.getFullYear()); // iski data type?
 
@@ -55,7 +56,7 @@
 // let day = today.getDate();
 // let month = today.getMonth() + 1;
 // let year = today.getFullYear();
-// console.log(day + "/" + month + "/" + year);
+// console.log(month + "/" + day + "/" + year);
 
 // ⚠️ Last 3 more important thing!
 // 1. new Date() current date/time deta hai
@@ -77,3 +78,14 @@
 // setMinutes(): setMinutes sets the minutes of an existing Date object without changing any other element.
 // setSeconds(): setSeconds sets the seconds of an existing Date object without changing any other element.
 // setMilliseconds(): setMilliseconds sets the milliseconds of an existing Date object without changing any other element.
+
+// let today = new Date();
+// // console.log(today);
+// console.log(today.getFullYear());
+// today.setFullYear(2030);
+// console.log(today.getFullYear());
+
+let today = new Date();
+today.setFullYear(2040);
+let year = today.getFullYear();
+console.log(year);
