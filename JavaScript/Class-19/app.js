@@ -116,10 +116,10 @@
 // So now the question is!
 // Kiya me multiple arguments or multiple parameters pass kar sakta ho?
 
-function greet(firstName, lastName) {
-    console.log("Hello" + " " + firstName + " " + lastName);
-}
-greet("Hassan", "Owais");
+// function greet(firstName, lastName) {
+//     console.log("Hello" + " " + firstName + " " + lastName);
+// }
+// greet("Hassan", "Owais");
 // is function me two parameters hen and two arguments
 // firstName ----> parameter
 // lastName  ----> parameter
@@ -142,3 +142,15 @@ greet("Hassan", "Owais");
 // Parameter
 // Argument
 // Multiple parameters  & multiple arguments
+
+function sumTwoNumber(numOne, numTwo) {
+ console.log(numOne + numTwo);
+};
+sumTwoNumber(50, 70);
+
+function userIntro(userName, userAge) {
+ console.log("User name: " + userName); 
+ console.log("User age: " + userAge); 
+};
+userIntro("Bilal", 22);
+userIntro("Hassan", 21);
