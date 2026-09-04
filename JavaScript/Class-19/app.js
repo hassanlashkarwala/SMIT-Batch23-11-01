@@ -107,7 +107,6 @@
 // greet("rizwan");
 // greet("rafay");
 
-
 // parameter or argument ka faida ye hua ke jab bh argument me koi new value likhoga mujhe bh mil jai gi kisi ki madad se parameter ki madad se kyu ke wo mere function ka data collect kr raha hai
 // ab mera function flexible hai
 // greet("Khan");
