@@ -1,6 +1,6 @@
 // What is event in JavaScript?
 // Simple definition
-// Event = koi bhi aisi cheez jo browser me "hoti" hai — jaise click karna, mouse move karna, page load hona, key press karna.
+// Event = koi bhi aisi cheez jo browser me "hoti" hai jaise click karna, mouse move karna, page load hona, key press karna.
 
 // Jab bhi user kuch karta hai.
 // means, click, type, hover, scroll
@@ -9,7 +9,7 @@
 
 // Used onclick Event on this function!
 // function sayHello(){
-//     console.log("Hello!");
+//     console.log("Hello, external js");
 // }
 
 // function clickLink() {
@@ -21,9 +21,19 @@
 //     console.log("Hello " + userName);
 // }
 
-let students = ["Ali", "Ahmed", "Hassan"];
-function showStudents() {
-    for (let i = 0; i < students.length; i++) {
-        console.log(students[i]);
-    }
-}
+// let students = ["Ali", "Ahmed", "Hassan"];
+// function showStudents() {
+//     for (let i = 0; i < students.length; i++) {
+//         console.log(students[i]);
+//     }
+// }
+
+// Mouse Events
+// function mouseOver() {
+// //   alert("Be sure to get your shopping done today");
+// console.log("Be sure to get your shopping done today");
+// }
+
+// function mouseOut() {
+//     console.log("Mouse left the button");
+// }

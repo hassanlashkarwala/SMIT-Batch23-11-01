@@ -1,23 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Class-26 JS</title>
-</head>
-<body>
-    <!-- <button onclick="alert('Hello')">Click Me</button>
-    <button onclick="console.log('Hey');">Click Me</button> -->
-    
+  </head>
+  <body>
+    <h1>today we learn Events in JavaScript</h1>
+
+     <!-- <button onclick="alert('Hello')">Click Me</button> -->
+     <!-- <button onclick="console.log('Hey');">Click Me</button>  -->
+
     <!-- now we learn how to i call my function in onclick event! -->
     <!-- <button onclick="sayHello()">Click Me!</button> -->
 
     <!-- now we used anchor tag and onclick event, to perform some specific task -->
-     <!-- <a href="#" onclick="clickLink()">Click Me!</a> -->
+    <!-- <a href="#" onclick="clickLink()">Click Me!</a> -->
 
     <!-- <button onclick="showMessage()">Click Me!</button> -->
-    <button onclick="showStudents()">Click Me!</button>
-     
+    <!-- <button onclick="showStudents()">Click Me!</button> -->
+
+    <!-- Mouse Events -->
+    <!-- <button onmouseover="mouseOver()">Hover Me!</button> -->
+    <!-- <button onmouseout="mouseOut()">Hover Me!</button> -->
+    <button onmouseover="this.style.color='green';" onmouseout="this.style.color='black';">Hover Me!</button>
+
+
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
