@@ -17,10 +17,22 @@
 // balke function ko ab me kr doga general-purpose
 // User parameters or arguments
 
-function swapPic(imageId, newImage) {
-    document.getElementById(imageId).src = newImage;
+function swapPic(id, newImage) {
+    document.getElementById(id).src = newImage;
 }
+
+
 
 // =================
 // Chapter 54
 // =================
+
+// function swapPic(imageId, newImage) {
+//   let image = document.getElementById(imageId);
+//   image.src = newImage;
+// }
+
+// function enLargeButton() {
+//     let button = document.getElementById("btn");
+//     button.className = "newclass";
+// }
