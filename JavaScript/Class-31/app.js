@@ -36,3 +36,18 @@
 
 // let para =  document.getElementsByTagName("p");
 // console.log(para);
+
+// console.log(para[0].innerHTML);
+// console.log(para[2].innerHTML);
+
+// Chapter: 57
+// let somePara = document.getElementById("rules");
+// let paragraphs = somePara.getElementsByTagName("p");
+// console.log(paragraphs[2].innerHTML);
+
+let table = document.getElementById("table");
+var cells = table.getElementsByTagName("td");
+for (let i = 0; i < cells.length; i++) {
+  cells[i].style.backgroundColor = "blue";
+  cells[i].style.color = "white";
+}
