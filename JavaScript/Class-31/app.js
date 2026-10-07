@@ -46,7 +46,7 @@
 // console.log(paragraphs[2].innerHTML);
 
 let table = document.getElementById("table");
-var cells = table.getElementsByTagName("td");
+let cells = table.getElementsByTagName("td");
 for (let i = 0; i < cells.length; i++) {
   cells[i].style.backgroundColor = "blue";
   cells[i].style.color = "white";
