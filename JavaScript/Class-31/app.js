@@ -41,9 +41,9 @@
 // console.log(para[2].innerHTML);
 
 // Chapter: 57
-// let somePara = document.getElementById("rules");
-// let paragraphs = somePara.getElementsByTagName("p");
-// console.log(paragraphs[2].innerHTML);
+let somePara = document.getElementById("rules");
+let paragraphs = somePara.getElementsByTagName("p");
+console.log(paragraphs[2].innerHTML);
 
 let table = document.getElementById("table");
 let cells = table.getElementsByTagName("td");
