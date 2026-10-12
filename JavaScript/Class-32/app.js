@@ -38,8 +38,6 @@
 // 5th level -> text / p
 // 6th level -> paragraph text
 
-
-
 // General rule ye yad rakhe bs 
 // Parent -> Child -> Grandchild
 
@@ -48,12 +46,10 @@
 // Node is a part of an HTML document, such as a document, element, or text.
 // means: HTML document ke har part ko Node kehte hain.
 
-
 // There are three types!
 // Document Node: Whole HTML document.
 // Element Nodes: <p> .... </p> whole paragraph element.
 // Text Nodes:  Hello World!
-
 
 // Now we move parent to child relation!
 // Simple rule: If one node is inside another node, the inner node is the child and the outer node is the parent.
