@@ -3,6 +3,7 @@
 // setAttribute se hum attribute ko set karwate hen, change kar sakte hen attribute ki value
 // hasAttribute("required") check karta hai ke attribute present hai ya nahi. Ye true ya false return karta hai.
 
+
 // document.createElement()
 // new element creating
 
