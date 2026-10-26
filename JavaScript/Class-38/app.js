@@ -12,7 +12,6 @@
 // userInput.value = " "
 // })
 
-
 // Chapter 68!
 // now you can think about it!
 // i can add a task in the beginning of list 
